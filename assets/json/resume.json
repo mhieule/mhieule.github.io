@@ -1,12 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
+    "name": "Minh Hieu Le",
+    "job": "B.Sc Computer Science, TU Darmstadt",
+    "email": "leminhhieumanr@gmail.com",
+    "phone": "(+49) 1741350820",
     "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "summary": "As a motivated computer science student with a strong interest in quantitative analysis and data-driven decision making, I am open to new challenges in the field of Data Analytics/Machine Learning and possesss a self-driven, result-oriented work ethic as well as the capability to effectively communicate and commit to collaboration in German and English",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",

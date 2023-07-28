@@ -2,96 +2,148 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Minh Hieu Le
     - name: Languages
-      value: English, German
+      value: Vietnamese (native), English (C1), German (C1)
+    - name: About me
+      value: As a motivated computer science student with a strong interest in quantitative analysis and data-driven decision making, I am open to new challenges in the field of Data Analytics/Machine Learning and possess a self-driven, result-oriented work ethic as well as the capability to effectively communicate and commit to collaboration in German and English.
 
-- title: Education
+- title: Formal education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: B.Sc Computer Science
+      institution: TU Darmstadt (<a href="https://www.tu-darmstadt.de/index.en.jsp"><b>TUD</b></a>)
+      department: Computer Science Department (<a href="https://www.informatik.tu-darmstadt.de/fb20/index.en.jsp"><b>FB20</b></a>)
+      location: Darmstadt, Germany
+      year: 2019-current
+      maindescription: "<ul>
+        <li>Current GPA: 1.8</li>
+        <li>Relevant courses: Linear Algebra (1.0), Analysis (2.7), Numerics, Stochastics, Statistics (1.0), Information Management (Introduction to Database and NLP) (1.0), Data Mining and Machine Learning (1.7)</li>
+        <li>Relevant projects:
+        <ul>
+          <li>Team project Software Development: In this project we developed an administration tool for a faculty at the TU Darmstadt. The application was written in Java Swing and should help the secretary to automate various HR tasks.</li>
+          <li>Java Game Framework Project: During the project, I applied my understanding of Java to recreate the game Gun Mayhem using the framework Slick2D. In doing so, I expanded and improved my Java skills.</li>
+        </ul>
+        </li>
+      </ul>"
+      linkitems:
+        - link: CV_final.pdf
+          linkname: "Academic record"
+    - title: Preparatory College Student
+      institution: Preparatory College of the TU Darmstadt (<a href="https://www.stk.tu-darmstadt.de/studienkollegstart/startseite_stk.de.jsp"><b>STK Darmstadt</b></a>)
+      department: T-Course (Mathematics, Informatics, Physics, Chemistry and German Language)
+      location: Darmstadt, Germany
+      year: 2018-2019
+      maindescription:
+        "<ul>
+        <li>Overall GPA: 1.5</li>
+        <li>Relevant subjects: Mathematics (1.0), Introduction to Computer Science (1.5)</li>
+        </ul>"
+    - title: Highschool Pupil
+      institution: Foreign Languages Specialized School of the National University Hanoi (<a href="http://flss.vnu.edu.vn/"><b>FLSS</b></a>)
+      department: German specialized class
+      location: Hanoi, Vietnam
+      year: 2015-2018
+      maindescription:
+
+- title: Certificates
+  type: list_groups
+  contents:
+    - category: Information technology
+      icon: fas fa-laptop-code
+      items:
+        - name: Google Data Analytics Professional Certificate
+          school: Google, Coursera
+          time: 6 month
+          link: Certificate_Google-Data-Analytics-Professional.pdf
+          linkname: CERT
+        - name: Learning Data Analytics
+          school: LinkedinLearning
+          time: 20 Hours
+          link: Certificate_Learning-Data-Analytics.pdf
+          linkname: CERT
+        - name: Covid-19 Data Analysis with Python
+          school: Coursera Project Network
+          time: 10 Hours
+          link: Cert_covid19python.pdf
+          linkname: CERT
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Student Assistant (Tutor)
+      institution: TU Darmstadt
+      department: Data and AI Systems Lab
+      location: Darmstadt, Germany
+      year: Apr 2023 - current
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Tutor for the course "Informationsmanagement"
+        - Supervise and support the course in Relational Database Theory and SQL
+        - Responsible for the creation of quizzes and exercises
+    - title: Big Data Analytics Internship
+      institution: BMW Group
+      department: Testing Department
+      location: Munich, Germany
+      year: 2021-2022
       description:
-        - Description 1.
-        - Description 2.
+        - Further development and optimization of a web application for dynamically combining and extracting measurement data from different time records with different sampling rates in KNIME Analytics Platform.
+        - Optimization of complex database queries in PostgreSQL, Oracle and AWS Athena.
+        - Development of a dashboard to estimate and visualize workflow runtimes and batch jobs in KNIME.
+        - Digitization and automation of various work processes with Python and KNIME.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
+- title: Other knowledge and skills
+  type: list_groups
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - category: Programing languages
+      icon: fas fa-code
       items:
-        - Description 1.
-        - Description 2.
+        - name: MATLAB
+          level: Intermediate level.
+        - name: C/C++
+          level: Intermediate level.
+        - name: Python
+          level: Advanced level.
+        - name: Java
+          level: Advanced level.
+        - name: VBA
+          level: Intermediate level.
+        - name: HTML/CSS
+          level: Intermediate level.
+        - name: SQL
+          level: Intermediate level.
+    - category: Software
+      icon: fas fa-window-maximize
+      items:
+        - name: PyCharm
+          level: Intermediate level.
+        - name: Git/Github/Gitlab
+          level: Intermediate level.
+        - name: IntelliJ IDEA
+          level: Advanced level.
+        - name: Excel
+          level: Advanced level.
+    - category: Document composition
+      icon: fas fa-book
+      items:
+        - name: LaTeX
+          level: Intermediate/Advanced level.
+        - name: Word
+          level: Intermediate/Advanced level.
+        - name: Power Point
+          level: Advanced level.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
