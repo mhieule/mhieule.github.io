@@ -2,9 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_177792.de.jsp'>B.Sc Computer Science, TU Darmstadt</a>\
-<a href='https://www.dataspark.de/'>Junior IT Consultant, DataSpark GmbH</a>
-
+subtitle: <a href='https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_177792.de.jsp'>B.Sc Computer Science, TU Darmstadt</a>.
 
 profile:
   align: right
