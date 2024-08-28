@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_177792.de.jsp'>B.Sc Computer Science, TU Darmstadt</a>.
+subtitle: <a href='https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_177792.de.jsp'>B.Sc Computer Science, TU Darmstadt</a> \ <a href='https://www.tu-darmstadt.de/studieren/studieninteressierte/studienangebot_studiengaenge/studiengang_177792.de.jsp'>B.Sc Computer Science, TU Darmstadt</a>.
 
 profile:
   align: right
@@ -10,8 +10,8 @@ profile:
   image_circular: false # crops the image to make it circular
   address: >
     <p>+49 174 135 0820</p>
-    <p>Dornheimer Weg, 56</p>
-    <p>64293, Darmstadt</p>
+    <p>Dornheimer Weg 56</p>
+    <p>64293 Darmstadt</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
